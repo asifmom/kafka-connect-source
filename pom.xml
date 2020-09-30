@@ -6,6 +6,13 @@
     <groupId>com.asif.kafka</groupId>
     <artifactId>kafka-connect-source</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
+    </dependencies>
     <packaging>jar</packaging>
 
     <name>kafka-connect-source</name>
